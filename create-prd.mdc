@@ -30,7 +30,9 @@ The AI should adapt its questions based on the prompt, but here are some common 
 *   **Design/UI:** "Are there any existing design mockups or UI guidelines to follow?" or "Can you describe the desired look and feel?"
 *   **Edge Cases:** "Are there any potential edge cases or error conditions we should consider?"
 
-## PRD Structure
+## PRD Structure Options
+
+### Option 1: Standard PRD Structure
 
 The generated PRD should include the following sections:
 
@@ -43,6 +45,32 @@ The generated PRD should include the following sections:
 7.  **Technical Considerations (Optional):** Mention any known technical constraints, dependencies, or suggestions (e.g., "Should integrate with the existing Auth module").
 8.  **Success Metrics:** How will the success of this feature be measured? (e.g., "Increase user engagement by 10%", "Reduce support tickets related to X").
 9.  **Open Questions:** List any remaining questions or areas needing further clarification.
+
+### Option 2: Comprehensive Engineering PRD Structure
+
+For complex technical features or when requested by the user, use this more detailed structure:
+
+1.  **Overview:** Brief feature description and problem it solves
+2.  **Problem Statement:** Detailed context and justification
+3.  **Goals:** Organized into Primary and Secondary goals
+4.  **Success Criteria:** Specific, measurable checkboxes for validation
+5.  **Requirements:** Subdivided into:
+    - **Functional Requirements** (numbered, specific features)
+    - **Technical Requirements** (numbered, system/environment needs)
+    - **Non-Functional Requirements** (numbered, performance/security/maintainability)
+6.  **User Stories:** Organized by persona/role
+7.  **Technical Specifications:** Include code examples, configurations, API specs
+8.  **Dependencies:** Split into External and Internal dependencies
+9.  **Timeline:** Phased approach with estimated timeframes
+10. **Risks and Mitigation:** Risk/mitigation strategy pairs
+11. **Out of Scope:** Clear exclusions and boundaries
+12. **Acceptance Criteria:** Grouped validation criteria
+
+### When to Use Each Structure
+
+- **Use Option 1** for simple features, UI changes, or when working with product managers
+- **Use Option 2** for complex technical features, integrations, infrastructure changes, or when the user requests "comprehensive" or "detailed" PRDs
+- **Ask the user** which structure they prefer if unclear from the prompt
 
 ## Target Audience
 
