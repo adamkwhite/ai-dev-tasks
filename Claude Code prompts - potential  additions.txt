@@ -1,0 +1,7 @@
+ Typical conventions:
+  - /README.md (project root) - Main project overview, quick start, installation
+  - /docs/README.md - Detailed documentation, API reference, examples
+  
+  
+  
+ 
